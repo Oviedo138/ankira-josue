@@ -1,1 +1,24 @@
-<p>header works!</p>
+<div class="top-bar"></div> 
+<div class="contact-info">
+  <span><i class="material-icons">phone</i>9982420184</span>
+  <span class="email"><i class="material-icons">email</i>contacto@ankyrareally.com.com</span>
+</div>
+<header class="header">
+  <div class="logo-container">
+    <img src="assets/images/Logo.png" alt="Logo">
+  </div>
+  <button class="menu-toggle" (click)="toggleMenu()">
+    <mat-icon>menu</mat-icon>
+  </button>
+  <div class="menu" [ngClass]="{'active': showMenu}">
+    <div class="logo-container">
+      <img src="assets/images/logoB.png" alt="Logo">
+    </div>
+    <div class="close-button-container">
+      <mat-icon class="close-button" (click)="toggleMenu()">close</mat-icon>
+    </div>
+    <a href="#" *ngFor="let item of rutas">{{item}}</a>
+  </div>
+</header>
+<hr>
+
