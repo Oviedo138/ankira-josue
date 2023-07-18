@@ -1,0 +1,21 @@
+.container {
+  position: relative;
+}
+
+h1 {
+  font-size: 26px;
+  margin: 0; /* Elimina el espacio alrededor de los títulos h1 */
+}
+
+.blue-heading {
+  color: rgb(79, 184, 196); /* Cambia el color del segundo h1 a azul */
+}
+
+img {
+  position: absolute;
+  top: -70%;
+  left: 50%;
+  width: 900px;
+  transform: translate(-65%, 10%);
+  z-index: -1;
+}
