@@ -7,6 +7,9 @@ import { HomeComponent } from './pages/home/home.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { CarruselComponent } from './components/carrusel/carrusel.component';
+import { MatIconModule } from '@angular/material/icon';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations'; // Importa el módulo MatIconModule
+
 
 @NgModule({
   declarations: [
@@ -18,7 +21,9 @@ import { CarruselComponent } from './components/carrusel/carrusel.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MatIconModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
