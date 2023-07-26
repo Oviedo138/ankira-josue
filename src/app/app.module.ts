@@ -12,6 +12,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatButtonToggleModule} from '@angular/material/button-toggle';
 import {MatInputModule} from '@angular/material/input';
 import {MatSelectModule} from '@angular/material/select';
+import { AsesorComponent } from './components/asesor/asesor.component';
 
 
 
@@ -23,7 +24,8 @@ import {MatSelectModule} from '@angular/material/select';
     HomeComponent,
     HeaderComponent,
     FooterComponent,
-    CarruselComponent
+    CarruselComponent,
+    AsesorComponent
   ],
   imports: [
     BrowserModule,
