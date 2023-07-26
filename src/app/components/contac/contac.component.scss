@@ -1,0 +1,81 @@
+.contact-section {
+  text-align: center;
+  padding: 20px;
+}
+
+.card{
+  background-color: rgb(16, 49, 71);
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+h2 {
+  padding: 10px;
+  color: #ffffff;
+}
+
+img {
+  width: 200px;
+  max-width: 500px;
+  height: auto;
+  margin: 20px 0;
+}
+
+h3 {
+  margin: 10px 0;
+  font-size: 1em ;
+  color: #ffffff;
+}
+
+.contact-form input {
+  background-color: white;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 5px;
+  text-align: center;
+  width: 275px;
+}
+
+.contact-form p {
+  margin: 5px 0;
+}
+
+.send-button {
+  color: rgb(0, 0, 0);
+}
+
+p, hr{
+  color: #3a95ac;
+  font-size: 13px;
+}
+
+hr{
+  width: 21em;
+}
+
+
+
+
+button{
+  background-color: white;
+  border-radius: 20px;
+  margin: 5px;
+  color: black;
+  width: 300px;
+  height: 35px;
+  // display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+mat-icon{
+  font-size: 20px;
+  margin-right: 5px;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+

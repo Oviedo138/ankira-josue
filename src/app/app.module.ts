@@ -13,6 +13,7 @@ import {MatButtonToggleModule} from '@angular/material/button-toggle';
 import {MatInputModule} from '@angular/material/input';
 import {MatSelectModule} from '@angular/material/select';
 import { AsesorComponent } from './components/asesor/asesor.component';
+import { ContacComponent } from './components/contac/contac.component';
 
 
 
@@ -25,7 +26,8 @@ import { AsesorComponent } from './components/asesor/asesor.component';
     HeaderComponent,
     FooterComponent,
     CarruselComponent,
-    AsesorComponent
+    AsesorComponent,
+    ContacComponent
   ],
   imports: [
     BrowserModule,
