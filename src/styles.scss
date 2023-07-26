@@ -2,3 +2,10 @@
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.whats {
+  position: fixed;
+  bottom: 3em;
+  right: 1em,;
+  z-index: 999;
+}
